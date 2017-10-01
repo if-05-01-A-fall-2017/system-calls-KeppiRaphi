@@ -1,0 +1,35 @@
+System Calls
+fork: Creates a new process by cloning the calling process.
+The calling process is called the parent process.
+
+mmap:
+Transfers memory of a process to a different physical address.
+
+waitpid:
+The parent process waits until the child process changes its status
+
+stat:
+Retrieves information about file
+
+chmod:
+Changes permissons of a file
+
+kill:
+Sends any signal to any procces
+------------------------------------------------------------------------------------------------------
+System Calls Fail
+fork:
+Not enough memory available for the new process.
+
+exec:
+New File doesn't exist
+
+read:
+File doesn't exist 
+
+unlink:
+Name doesn't exist
+------------------------------------------------------------------------------------------------------
+Traps
+A trap in an OS is used to switch to Kernel Mode.
+======================================================================================================
